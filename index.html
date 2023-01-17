@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>    
+
+    <body>
+
+      <!-- Heading -->
+      
+        <div class="header">
+        <a href = "quiz.html">
+          <img src="icon2.jpg" alt="img" >
+        </a>
+        <h1>Alpha Quiz System</h1>
+        <!-- <button class="tracker"><span id="text">Total number of test takers :</span><span id="number"> 00</span></button> -->
+    </div>
+    <hr>
+
+     <!-- login information  -->
+
+     <form id="form" class="login-box" onsubmit="return validate()" action="quiz.html">
+      <div class="user_info">
+        <span>User login</span>
+      </div> 
+      <div class="textbox">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Enter Username" id="username" name="" value="" required />
+        </div>
+        <div class="textbox">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Enter Password" id="password" name="" value="" required/>
+        </div>
+        <input class="btn" id="btn_submit"  type="submit" name="" value="Submit"/>
+      </form>
+        
+      <!-- Rules and regulations for the Quiz
+
+      <div class="rule_box" id="rules">
+        <div class="rule_ti tle">
+          <span>Rules and regulations for the Quiz</span>
+        </div>
+        <div class="info_list">  
+        <div class="info">1.Quiz will contain total 20 questions.</div>
+        <div class="info">2.One point will be awarded for each correct answer.</div>
+        <div class="info">3.No half marks will be awarded.</div>
+        <div class="info">4.Each question has 4 options.</div>
+        <div class="info">5.Do not refresh the page.</div>
+        <div class="info">6.Final score will be shown after the submission of the quiz.</div>
+        <div class="info">7.Do not move out of the quiz window else your quiz will be auto submitted.</div>
+        </div>
+        <div class="permission">
+          <div class="permission_btn">
+          <input type="checkbox" id="check_box" class="check" name="agree" onsubmit="funValidate()">
+          <label id="agree" > I Agree</label>
+          <button class="start" onclick="">Start Quiz</button>
+        </div>  
+        </div>
+      </div> -->
+
+      <!-- Quiz Box -->
+      <!-- <div class="quiz_box">
+    <section>
+        <div class="que_text">
+          <span>Q1. What is JavaScript?</span>
+        </div>
+          <div class="option_list">
+            <div class="option">
+              <input type="radio" name="frequency" class="Answer">
+              <label id="option1">JavaScript is a scripting language used to make the website interactive</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" name="frequency" class="Answer">
+              <label id="option2" >JavaScript is an assembly language used to make the website interactive</label>
+            </div>
+          
+            <div class="option">
+              <input type="radio" name="frequency" class="Answer">
+              <label id="option3">JavaScript is a compiled language used to make the website interactive</label>
+            </div>
+          
+            <div class="option">
+              <input type="radio" name="frequency" class="Answer">
+              <label id="option4">None of the mentioned</label>
+            </div>
+            <div class="correct_ans">Correct Answer : JavaScript is a scripting language used to make the website interactive 
+          </div>
+          </div> 
+        </section> -->
+
+        <!-- Quiz footer -->
+
+        <!-- <div class="footer">
+          <div class="footer_list">
+          <button class="prev">Previous</button>
+           <button class="next">Next</button>
+           <button class="finish">Finish quiz</button>
+          </div>
+          </div>
+    </div>
+
+    <div class="median_score">
+      <div class="score">
+        <span class="result">Your Result is :</span><span> 00%</span><br>
+        <span class="Median">Median Score is :</span><span> 00%</span>
+      </div>
+      <div class="total_que">
+        <span class="total_que">Total number of Questions :</span><span> 00</span><br>
+        <span class="total_wrong">Total number of Wrong Answer :</span><span> 00</span><br>
+        <span class="total_correct">Total number of Correct Answer :</span><span> 00</span>
+      </div>
+      <div class="result">
+        <span class="result1">Excellent Job !! You are doing Great</span>
+         <br>
+        <span class="response2">Oopsss !! You need Serious Improvement</span><br>
+        <span class="response3">Good Job !! You can do Better</span> -->
+      <!-- </div>
+    </div> --> 
+          <script src="quiz.js" ></script>
+          
+    </body>
+  </head>
+</html>
+
+
+ 
